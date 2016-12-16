@@ -10,4 +10,19 @@ $(document).ready(function () {
     	introJs().start();
     });
 
+
+    /***** Actions Spreadsheet *****/
+
+    $("#undo").on('click', function(){
+    	$("#grid").ip_Undo();
+    })
+
+    $("#show_id_col").on('click', function(){
+    	$("#grid").ip_ColumnSelector({show:true});
+    })
+
+    $("#hide_id_col").on('click', function(){
+    	$("#grid").ip_ColumnSelector({show:false});
+    })
+
 });

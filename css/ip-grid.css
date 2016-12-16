@@ -21,6 +21,21 @@ body .gridContainer #grid {
   width: 100%;
   height: 100%;
 }
+body .panel-group .panel-body {
+  color: #000;
+}
+body #accordion1 .panel-body .btn {
+  margin-bottom: 5px;
+}
+body #accordion1 .panel-body p {
+  vertical-align: middle;
+  line-height: 2em;
+}
+body #accordion1 .panel-body #undo,
+body #accordion1 .panel-body #show_id_col,
+body #accordion1 .panel-body #hide_id_col {
+  width: 100%;
+}
 body footer {
   margin-top: 20px;
 }
